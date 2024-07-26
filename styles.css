@@ -49,4 +49,82 @@ ul li a:hover {
   cursor: pointer;
 }
 
+.btn-outline {
+  background: transparent;
+  border: none;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* Navigation End */
+
+/* Header Start */
+header {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container {
+  margin-left: 6rem;
+}
+
+.main-headings {
+  font-size: 4rem;
+  font-family: var(--main-font);
+  color: #0000004f;
+  margin-bottom: 2rem;
+}
+
+.main-headings span {
+  color: #000;
+}
+
+.primary-headings {
+  max-width: 500px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-bottom: 2rem;
+}
+
+.img-container {
+  width: 500px;
+  height: 500px;
+  background: var(--main-color);
+  border-radius: 100%;
+}
+
+.img-container img {
+  width: 400px;
+  height: 500px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Header End */
+
+/* Popularity Start */
+.popularity {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.popularity div {
+  margin-right: 5rem;
+}
+
+.popularity div h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #363636;
+  font-family: var(--main-font);
+}
+
+.popularity div p {
+  color: #363636;
+  font-family: sans-serif;
+}
+/* Popularity End */
