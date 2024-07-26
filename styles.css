@@ -128,3 +128,86 @@ header {
   font-family: sans-serif;
 }
 /* Popularity End */
+
+/* Products Start */
+
+.products-heading {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  color: #0000004f;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.product .product-img-layer {
+  background-color: var(--main-color);
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  padding: 20px;
+}
+
+.product .product-img-layer .img {
+  width: 200px;
+  height: 200px;
+}
+
+.product .product-img-layer .img-one {
+  background: url(images/chair1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.product .product-img-layer .img-two {
+  background: url(images/chair2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.product .product-img-layer .img-three {
+  background: url(images/chair3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.product-content {
+  background: var(--primary-color);
+  padding: 27px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.product-content .product-name {
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.b-container {
+  text-align: center;
+}
+
+.b-container button {
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* Products End */
